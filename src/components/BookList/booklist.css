@@ -1,0 +1,98 @@
+.booklist {
+    padding: 1rem;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.loader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.loader > img {
+    width: 100%;
+    max-width: 60px;
+
+}
+
+.container-book {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    align-items:  center;
+    margin: 1rem;
+}
+
+.section-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.booklist-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+
+.book-card {
+    display: flex;
+    width: 100%;
+    max-width: 280px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem;
+    padding: 2rem;
+    background-color: rgb(252, 255, 255);
+    border: 1px solid #e9e8e8cc;
+    border-radius: 8px;
+    height: 500px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.5) 0px 4px 6px -2px;
+}
+
+.book-card .img-book{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.book-card img {
+    width: 100%;
+    max-width: 150px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.book-item-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.title-book {
+    margin-top: 1rem;
+    font-weight: 500;
+}
+
+.author {
+    display: flex;
+    flex-direction: column;
+    margin-top: .5rem;
+}
+.author span {
+    margin-top: 5px;
+}
