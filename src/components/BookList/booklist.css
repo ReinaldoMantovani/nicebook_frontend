@@ -1,6 +1,7 @@
 .booklist {
     padding: 1rem;
     display: flex;
+    top: 0;
     width: 100%;
     align-items: center;
 }
